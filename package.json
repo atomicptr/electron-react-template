@@ -1,0 +1,21 @@
+{
+  "name": "electron-react-template",
+  "productName": "AppName",
+  "version": "1.0.0",
+  "author": "Much App",
+  "description": "A template for React based electron apps",
+  "main": "main/app.js",
+  "scripts": {
+    "start": "electron . --dev-tools",
+    "build": "node ./build.js"
+  },
+  "dependencies": {
+    "electron": "^1.4.14",
+    "hilt": "^0.2.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.5.0"
+  }
+}
